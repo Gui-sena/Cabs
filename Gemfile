@@ -76,3 +76,7 @@ group :test do
   # database_cleaner is not mandatory, but highly recommended
   gem 'database_cleaner'
 end
+
+group :development, :test do
+  gem 'rspec-rails', ">= 3.9.0"
+end
