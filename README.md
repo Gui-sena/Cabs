@@ -20,5 +20,5 @@ coisas que não são mais utilizadas por coisas que teriam uma nova utilidade. A
 
 - Link para a aplicação implantada no Heroku:  https://cabs-apps.herokuapp.com/ </p>
 
-- Link para o projeto no Pivotal Tracker (não crie um projeto agora, o link será fornecido por mim, o projeto no Pivotal será criado assim que os grupos forem definidos)
+- Link para o projeto no Pivotal Tracker: https://www.pivotaltracker.com/projects/2603032 </p>
     
