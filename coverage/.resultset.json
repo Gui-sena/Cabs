@@ -13,6 +13,20 @@
           null
         ]
       },
+      "/Users/guilhermesena/code/Cabs/app/controllers/articles_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/guilhermesena/code/Cabs/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
       "/Users/guilhermesena/code/Cabs/app/channels/application_cable/channel.rb": {
         "lines": [
           0,
@@ -24,24 +38,6 @@
         }
       },
       "/Users/guilhermesena/code/Cabs/app/channels/application_cable/connection.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/guilhermesena/code/Cabs/app/controllers/application_controller.rb": {
-        "lines": [
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/guilhermesena/code/Cabs/app/controllers/articles_controller.rb": {
         "lines": [
           0,
           0,
@@ -84,6 +80,6 @@
         }
       }
     },
-    "timestamp": 1665084265
+    "timestamp": 1665090164
   }
 }

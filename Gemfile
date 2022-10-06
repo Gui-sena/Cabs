@@ -77,7 +77,7 @@ group :development, :test do
   # database_cleaner is not mandatory, but highly recommended
   gem 'database_cleaner'
   gem 'rspec-rails', ">= 3.9.0"
-  gem 'simplecov', require: false
+  gem 'simplecov'
   gem 'simplecov-lcov', '~> 0.8.0'
   gem 'shoulda-matchers'
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
