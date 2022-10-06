@@ -50,6 +50,7 @@ gem "bootsnap", require: false
 
 # coveralls gem
 gem 'coveralls', require: false
+gem 'coveralls_reborn', '~> 0.25.0', require: false
 
 
 group :development do
@@ -77,7 +78,7 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'rspec-rails', ">= 3.9.0"
   gem 'simplecov', require: false
-  gem 'simplecov-lcov', require: false
+  gem 'simplecov-lcov', '~> 0.8.0'
   gem 'shoulda-matchers'
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
 end
