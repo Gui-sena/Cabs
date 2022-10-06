@@ -85,3 +85,5 @@ group :development, :test do
   gem 'simplecov', require: false
   gem 'simplecov-lcov', require: false
 end
+
+gem "rspec", "~> 3.11"
