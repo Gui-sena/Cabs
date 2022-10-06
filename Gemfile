@@ -51,10 +51,6 @@ gem "bootsnap", require: false
 # coveralls gem
 gem 'coveralls', require: false
 
-group :development, :test do
-  # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
-  gem "debug", platforms: %i[ mri mingw x64_mingw ]
-end
 
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
@@ -74,16 +70,16 @@ group :test do
   gem "webdrivers"
 end
 
-group :test do
+
+group :development, :test do
   gem 'cucumber-rails', require: false
   # database_cleaner is not mandatory, but highly recommended
   gem 'database_cleaner'
-end
-
-group :development, :test do
   gem 'rspec-rails', ">= 3.9.0"
   gem 'simplecov', require: false
   gem 'simplecov-lcov', require: false
+  gem 'shoulda-matchers'
+  gem "debug", platforms: %i[ mri mingw x64_mingw ]
 end
 
 gem "rspec", "~> 3.11"
