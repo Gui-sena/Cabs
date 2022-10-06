@@ -12,7 +12,6 @@ coisas que não são mais utilizadas por coisas que teriam uma nova utilidade. A
 
 - "CodeClimate badge" mostrando o GPA do projeto </p>
  <a href="https://codeclimate.com/github/Gui-sena/Cabs/maintainability"><img src="https://api.codeclimate.com/v1/badges/fd0dfab214376e905cbc/maintainability" /></a>
- <a href="https://codeclimate.com/github/Gui-sena/Cabs/test_coverage"><img src="https://api.codeclimate.com/v1/badges/fd0dfab214376e905cbc/test_coverage" /></a>
 - "Github Actions badge" mostrando o status workflow referente a branch master (deve ser: passing) </p>
 [![GitHub Actions Demo](https://github.com/Gui-sena/Cabs/actions/workflows/github-actions-demo.yml/badge.svg?branch=main)](https://github.com/Gui-sena/Cabs/actions/workflows/github-actions-demo.yml) </p>
 - "Coveralls badge" mostrando a cobertura de teste do código desenvolvido</p>
