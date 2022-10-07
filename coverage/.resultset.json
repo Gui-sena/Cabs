@@ -1,33 +1,80 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/guilhermesena/code/Cabs/app/helpers/application_helper.rb": {
+      "/myapp/lib/tasks/cucumber.rake": {
         "lines": [
-          1,
-          null
-        ]
-      },
-      "/Users/guilhermesena/code/Cabs/app/helpers/articles_helper.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/Users/guilhermesena/code/Cabs/app/controllers/articles_controller.rb": {
-        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          2,
+          null,
           1,
           1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          0,
+          0,
+          0,
+          null,
+          null,
           null,
           null
         ]
       },
-      "/Users/guilhermesena/code/Cabs/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/Users/guilhermesena/code/Cabs/app/channels/application_cable/channel.rb": {
+      "/myapp/app/channels/application_cable/channel.rb": {
         "lines": [
           0,
           0,
@@ -37,7 +84,7 @@
         "branches": {
         }
       },
-      "/Users/guilhermesena/code/Cabs/app/channels/application_cable/connection.rb": {
+      "/myapp/app/channels/application_cable/connection.rb": {
         "lines": [
           0,
           0,
@@ -47,7 +94,41 @@
         "branches": {
         }
       },
-      "/Users/guilhermesena/code/Cabs/app/jobs/application_job.rb": {
+      "/myapp/app/controllers/application_controller.rb": {
+        "lines": [
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/myapp/app/controllers/articles_controller.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/myapp/app/helpers/application_helper.rb": {
+        "lines": [
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/myapp/app/helpers/articles_helper.rb": {
+        "lines": [
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/myapp/app/jobs/application_job.rb": {
         "lines": [
           0,
           null,
@@ -60,7 +141,7 @@
         "branches": {
         }
       },
-      "/Users/guilhermesena/code/Cabs/app/mailers/application_mailer.rb": {
+      "/myapp/app/mailers/application_mailer.rb": {
         "lines": [
           0,
           0,
@@ -70,7 +151,7 @@
         "branches": {
         }
       },
-      "/Users/guilhermesena/code/Cabs/app/models/application_record.rb": {
+      "/myapp/app/models/application_record.rb": {
         "lines": [
           0,
           0,
@@ -80,6 +161,6 @@
         }
       }
     },
-    "timestamp": 1665090164
+    "timestamp": 1665115880
   }
 }
