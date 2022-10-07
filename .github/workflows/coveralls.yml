@@ -34,6 +34,13 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+      - name: Coveralls Parallel
+        uses: coverallsapp/github-action@master
+        with:
+          github-token: ${{ secrets.github_token }}
+          flag-name: run-${{ matrix.test_number }}
+          parallel: true
           
       - name: Coveralls GitHub Action
         # You may pin to the exact commit or the version.
@@ -44,3 +51,12 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           # Path to lcov file
           path-to-lcov: ./coverage/lcov.info
+    finish:
+      needs: test
+      runs-on: ubuntu-latest
+      steps:
+      - name: Coveralls Finished
+        uses: coverallsapp/github-action@master
+        with:
+          github-token: ${{ secrets.github_token }}
+          parallel-finished: true
