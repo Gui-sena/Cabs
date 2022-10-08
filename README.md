@@ -12,10 +12,14 @@ coisas que não são mais utilizadas por coisas que teriam uma nova utilidade. A
 
 - "CodeClimate badge" mostrando o GPA do projeto </p>
  <a href="https://codeclimate.com/github/Gui-sena/Cabs/maintainability"><img src="https://api.codeclimate.com/v1/badges/fd0dfab214376e905cbc/maintainability" /></a>
+ 
 - "Github Actions badge" mostrando o status workflow referente a branch master (deve ser: passing) </p>
 [![GitHub Actions Demo](https://github.com/Gui-sena/Cabs/actions/workflows/github-actions-demo.yml/badge.svg?branch=main)](https://github.com/Gui-sena/Cabs/actions/workflows/github-actions-demo.yml) </p>
+
+![CI/CD](https://github.com/Gui-sena/Cabs/actions/workflows/ci.yml/badge.svg) </p>
+
 - "Coveralls badge" mostrando a cobertura de teste do código desenvolvido</p>
-<a href='https://coveralls.io/github/Gui-sena/Cabs'><img src='https://coveralls.io/repos/github/Gui-sena/Cabs/badge.svg' alt='Coverage Status' /></a>
+[![Coverage Status](https://coveralls.io/repos/github/Gui-sena/Cabs/badge.svg?branch=main)](https://coveralls.io/github/Gui-sena/Cabs?branch=main)
 
 - Link para a aplicação implantada no Heroku:  https://cabs-apps.herokuapp.com/ </p>
 
