@@ -9,16 +9,19 @@
 Um website focado na troca de artigos entre os usuários. O problema a ser resolvido é a necessidade de se trocar 
 coisas que não são mais utilizadas por coisas que teriam uma nova utilidade. As trocas são realizadas com base no interesse mútuo entre os usuários, não havendo distinção de valor. O website tem como objetivo funcionar como uma vitrine de objetos e como um meio de comunicação entre as partes interessadas.</p>
 
+
 - "CodeClimate badge" mostrando o GPA do projeto </p>
-[![Maintainability](https://api.codeclimate.com/v1/badges/35aeb9e7f8cb0d45d92c/maintainability)](https://codeclimate.com/github/Gui-sena/Cabs/maintainability)
-
+ <a href="https://codeclimate.com/github/Gui-sena/Cabs/maintainability"><img src="https://api.codeclimate.com/v1/badges/fd0dfab214376e905cbc/maintainability" /></a>
+ 
 - "Github Actions badge" mostrando o status workflow referente a branch master (deve ser: passing) </p>
-![CI/CD](https://github.com/Gui-sena/Cabs/actions/workflows/ci.yml/badge.svg) 
+[![GitHub Actions Demo](https://github.com/Gui-sena/Cabs/actions/workflows/github-actions-demo.yml/badge.svg?branch=main)](https://github.com/Gui-sena/Cabs/actions/workflows/github-actions-demo.yml) </p>
 
-- "Coveralls badge" mostrando a cobertura de teste do código desenvolvido </p>
+![CI/CD](https://github.com/Gui-sena/Cabs/actions/workflows/ci.yml/badge.svg) </p>
+
+- "Coveralls badge" mostrando a cobertura de teste do código desenvolvido</p>
 [![Coverage Status](https://coveralls.io/repos/github/Gui-sena/Cabs/badge.svg?branch=main)](https://coveralls.io/github/Gui-sena/Cabs?branch=main)
 
-- Link para a aplicação implantada no Heroku: [atualizar]</p>
+- Link para a aplicação implantada no Heroku:  https://cabs-apps.herokuapp.com/ </p>
 
 - Link para o projeto no Pivotal Tracker: https://www.pivotaltracker.com/projects/2603032 </p>
     
